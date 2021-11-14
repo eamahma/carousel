@@ -1,10 +1,12 @@
 import './App.css';
-import Carousel from './Components/Carousel';
+// import Carousel from './Components/Carousel';
+import BootstrapCarouselDemo from './Components/Carousel'
 
 function App() {
   return (
     <div className="App">
-      <Carousel />
+      {/* <Carousel /> */}
+      <BootstrapCarouselDemo />
     </div>
   );
 }
